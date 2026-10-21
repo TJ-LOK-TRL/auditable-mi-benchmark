@@ -17,6 +17,7 @@ python analysis/run_all.py
 ```
 
 The statistics are written to `output/` as CSV files and the LaTeX tables to `tables/`.
+The full run takes about 10 minutes.
 
 ## Contents
 
