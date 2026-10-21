@@ -1,0 +1,4 @@
+output/
+tables/
+__pycache__/
+*.pyc

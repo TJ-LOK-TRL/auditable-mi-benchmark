@@ -1,0 +1,324 @@
+{
+ "panel": [
+  "AlexMotorImagery",
+  "BCICompIV2a",
+  "BNCI2003004",
+  "BNCI2014004",
+  "BNCI2015001",
+  "BNCIHorizon2014002",
+  "Cho2017",
+  "Dreyer2023",
+  "GrosseWentrup2009",
+  "Kaya2018",
+  "Kumar2024MI",
+  "Lee2019MI",
+  "PhysionetMI",
+  "Rozado2015",
+  "Schirrmeister2017",
+  "Shin2017A",
+  "Tavakolan2017",
+  "TrianaGuzman2024",
+  "Weibo2014",
+  "Zhou2016MI"
+ ],
+ "datasets": {
+  "AlexMotorImagery": {
+   "n_subjects": 8,
+   "n_classes": 3,
+   "trials_per_subject_mean": 60.0,
+   "trials_total": 480,
+   "noskill": 0.3333333333333333,
+   "n_channels": 16,
+   "n_times": 750,
+   "sfreq": 250.0,
+   "classes": [
+    "feet",
+    "rest",
+    "right_hand"
+   ]
+  },
+  "BCICompIV2a": {
+   "n_subjects": 9,
+   "n_classes": 4,
+   "trials_per_subject_mean": 576.0,
+   "trials_total": 5184,
+   "noskill": 0.25,
+   "n_channels": 22,
+   "n_times": 1125,
+   "sfreq": 250,
+   "classes": [
+    "feet",
+    "left_hand",
+    "right_hand",
+    "tongue"
+   ]
+  },
+  "BNCI2003004": {
+   "n_subjects": 5,
+   "n_classes": 2,
+   "trials_per_subject_mean": 112.0,
+   "trials_total": 560,
+   "noskill": 0.5404761904761904,
+   "n_channels": 118,
+   "n_times": 351,
+   "sfreq": 100.0,
+   "classes": [
+    "feet",
+    "right_hand"
+   ]
+  },
+  "BNCI2014004": {
+   "n_subjects": 9,
+   "n_classes": 2,
+   "trials_per_subject_mean": 724.4444444444445,
+   "trials_total": 6520,
+   "noskill": 0.5,
+   "n_channels": 3,
+   "n_times": 751,
+   "sfreq": 250.0,
+   "classes": [
+    "left_hand",
+    "right_hand"
+   ]
+  },
+  "BNCI2015001": {
+   "n_subjects": 12,
+   "n_classes": 2,
+   "trials_per_subject_mean": 400.0,
+   "trials_total": 4800,
+   "noskill": 0.5,
+   "n_channels": 13,
+   "n_times": 750,
+   "sfreq": 250,
+   "classes": [
+    "feet",
+    "right_hand"
+   ]
+  },
+  "BNCIHorizon2014002": {
+   "n_subjects": 14,
+   "n_classes": 2,
+   "trials_per_subject_mean": 160.0,
+   "trials_total": 2240,
+   "noskill": 0.5,
+   "n_channels": 15,
+   "n_times": 750,
+   "sfreq": 250.0,
+   "classes": [
+    "feet",
+    "right_hand"
+   ]
+  },
+  "Cho2017": {
+   "n_subjects": 52,
+   "n_classes": 2,
+   "trials_per_subject_mean": 202.30769230769232,
+   "trials_total": 10520,
+   "noskill": 0.5,
+   "n_channels": 64,
+   "n_times": 750,
+   "sfreq": 250,
+   "classes": [
+    "left_hand",
+    "right_hand"
+   ]
+  },
+  "Dreyer2023": {
+   "n_subjects": 87,
+   "n_classes": 2,
+   "trials_per_subject_mean": 238.98850574712642,
+   "trials_total": 20792,
+   "noskill": 0.5000990883868411,
+   "n_channels": 27,
+   "n_times": 1250,
+   "sfreq": 250,
+   "classes": [
+    "left_hand",
+    "right_hand"
+   ]
+  },
+  "GrosseWentrup2009": {
+   "n_subjects": 10,
+   "n_classes": 2,
+   "trials_per_subject_mean": 300.0,
+   "trials_total": 3000,
+   "noskill": 0.5,
+   "n_channels": 128,
+   "n_times": 1250,
+   "sfreq": 250,
+   "classes": [
+    "left_hand",
+    "right_hand"
+   ]
+  },
+  "Kaya2018": {
+   "n_subjects": 7,
+   "n_classes": 3,
+   "trials_per_subject_mean": 950.8571428571429,
+   "trials_total": 6656,
+   "noskill": 0.36713526526911455,
+   "n_channels": 19,
+   "n_times": 201,
+   "sfreq": 200.0,
+   "classes": [
+    "left_hand",
+    "passive",
+    "right_hand"
+   ]
+  },
+  "Kumar2024MI": {
+   "n_subjects": 18,
+   "n_classes": 2,
+   "trials_per_subject_mean": 397.55555555555554,
+   "trials_total": 7156,
+   "noskill": 0.5016792924130237,
+   "n_channels": 22,
+   "n_times": 1250,
+   "sfreq": 250.0,
+   "classes": [
+    "left_hand",
+    "right_hand"
+   ]
+  },
+  "Lee2019MI": {
+   "n_subjects": 54,
+   "n_classes": 2,
+   "trials_per_subject_mean": 200.0,
+   "trials_total": 10800,
+   "noskill": 0.5,
+   "n_channels": 62,
+   "n_times": 750,
+   "sfreq": 250,
+   "classes": [
+    "left_hand",
+    "right_hand"
+   ]
+  },
+  "PhysionetMI": {
+   "n_subjects": 109,
+   "n_classes": 5,
+   "trials_per_subject_mean": 174.5137614678899,
+   "trials_total": 19022,
+   "noskill": 0.4827820362947565,
+   "n_channels": 64,
+   "n_times": 481,
+   "sfreq": 160.0,
+   "classes": [
+    "feet",
+    "hands",
+    "left_hand",
+    "rest",
+    "right_hand"
+   ]
+  },
+  "Rozado2015": {
+   "n_subjects": 30,
+   "n_classes": 2,
+   "trials_per_subject_mean": 51.666666666666664,
+   "trials_total": 1550,
+   "noskill": 0.5462222222222223,
+   "n_channels": 32,
+   "n_times": 1250,
+   "sfreq": 250,
+   "classes": [
+    "left_hand",
+    "rest"
+   ]
+  },
+  "Schirrmeister2017": {
+   "n_subjects": 14,
+   "n_classes": 4,
+   "trials_per_subject_mean": 963.1428571428571,
+   "trials_total": 13484,
+   "noskill": 0.25014961556296134,
+   "n_channels": 128,
+   "n_times": 1000,
+   "sfreq": 250,
+   "classes": [
+    "feet",
+    "left_hand",
+    "rest",
+    "right_hand"
+   ]
+  },
+  "Shin2017A": {
+   "n_subjects": 29,
+   "n_classes": 2,
+   "trials_per_subject_mean": 60.0,
+   "trials_total": 1740,
+   "noskill": 0.5,
+   "n_channels": 30,
+   "n_times": 1001,
+   "sfreq": 200.0,
+   "classes": [
+    "left_hand",
+    "right_hand"
+   ]
+  },
+  "Tavakolan2017": {
+   "n_subjects": 12,
+   "n_classes": 3,
+   "trials_per_subject_mean": 240.0,
+   "trials_total": 2880,
+   "noskill": 0.3333333333333333,
+   "n_channels": 32,
+   "n_times": 750,
+   "sfreq": 250,
+   "classes": [
+    "rest",
+    "right_elbow_flexion",
+    "right_hand"
+   ]
+  },
+  "TrianaGuzman2024": {
+   "n_subjects": 32,
+   "n_classes": 4,
+   "trials_per_subject_mean": 239.96875,
+   "trials_total": 7679,
+   "noskill": 0.25003268828451886,
+   "n_channels": 17,
+   "n_times": 1001,
+   "sfreq": 250.0,
+   "classes": [
+    "idle_sitting",
+    "idle_standing",
+    "imagery_sit_to_stand",
+    "imagery_stand_to_sit"
+   ]
+  },
+  "Weibo2014": {
+   "n_subjects": 10,
+   "n_classes": 7,
+   "trials_per_subject_mean": 554.0,
+   "trials_total": 5540,
+   "noskill": 0.14457142857142855,
+   "n_channels": 60,
+   "n_times": 801,
+   "sfreq": 200.0,
+   "classes": [
+    "feet",
+    "hands",
+    "left_hand",
+    "left_hand_right_foot",
+    "rest",
+    "right_hand",
+    "right_hand_left_foot"
+   ]
+  },
+  "Zhou2016MI": {
+   "n_subjects": 4,
+   "n_classes": 3,
+   "trials_per_subject_mean": 450.0,
+   "trials_total": 1800,
+   "noskill": 0.3338768560393897,
+   "n_channels": 14,
+   "n_times": 1251,
+   "sfreq": 250.0,
+   "classes": [
+    "feet",
+    "left_hand",
+    "right_hand"
+   ]
+  }
+ }
+}
