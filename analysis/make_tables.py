@@ -158,7 +158,8 @@ def panel():
     deep = [m for m in A if fam[m] == 'deep' and m != SECOND]
     d_no2 = A[deep].max(1) - A[[m for m in A if fam[m] == 'classical']].max(1)
     members = dict(NAMED, **{'All datasets': list(A.index), 'All but BCI IV 2a': [x for x in A.index if x != 'BCICompIV2a']})
-    body = [f'{r.panel} & {r.n} & {pp(r.d_best)} & {pp(d_no2[members[r.panel]].mean())} & {r.top} & '
+    label = {'MOABB suggested MI panel': 'MOABB suggested panel'}
+    body = [f"{label.get(r.panel, r.panel).replace('BCI IV 2a', '2a')} & {r.n} & {pp(r.d_best)} & {pp(d_no2[members[r.panel]].mean())} & {r.top} & "
             f'{r.top_classical} ({r.top_classical_rank:g}) & {r.tau:.2f} \\\\' for r in n.itertuples()]
     table('panel_named.tex', 'lcccccc',
           rf'Panel & Datasets & Best deep $-$ best classical (pp) & Without {SECOND} & Top pipeline & Top classical (rank) & $\tau$ with full panel', body)
